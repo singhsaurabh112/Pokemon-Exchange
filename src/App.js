@@ -9,12 +9,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <code>Pokemon Exchange</code>
+         <br/> Exchange your Pokemon NFTs.
         </p>
-        <a
-          className="App-link"
-        >
-          Exchange your Pokemon NFTs.
-        </a>
       </header>
     </div>
   );
