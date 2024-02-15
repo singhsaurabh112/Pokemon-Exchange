@@ -1,21 +1,24 @@
 import logo from './assets/pikachu.png';
 import './App.css';
+import NavigationBar from './Components/NavigationBar';
 
 function App() {
   return (
     <div className="App">
-      
+      <NavigationBar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Pokemon Exchange</code>
-        </p>
-        <a
-          className="App-link"
-        >
-          Exchange your Pokemon NFTs.
-        </a>
       </header>
+      <body>
+        <h1>
+          <code>Welcome to the Pokemon Market</code>
+        </h1>
+        <div>
+          <p>
+            <code>Buy and sell your Pokemons</code>
+          </p>
+        </div>
+      </body>
     </div>
   );
 }
